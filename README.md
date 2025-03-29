@@ -1,4 +1,53 @@
 # React + Vite
+A React-based user management app integrating with Reqres API, featuring authentication, user listing, and management.
+
+Features
+
+Login with provided credentials.
+
+User List with pagination.
+
+Edit/Delete Users with API integration.
+
+Error Handling and responsive UI.
+
+Tech Stack
+
+React.js, React Router
+
+Axios (API requests)
+
+Tailwind CSS / Bootstrap (styling)
+
+Local Storage (token persistence)
+
+Setup
+
+Clone repo & navigate to project:
+
+git clone <repo-link> && cd employwise-frontend
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm start
+
+Open in browser:
+
+http://localhost:3000
+
+API Endpoints
+
+Login: POST /api/login
+
+Fetch Users: GET /api/users?page=1
+
+Update User: PUT /api/users/{id}
+
+Delete User: DELETE /api/users/{id}
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
